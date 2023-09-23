@@ -113,7 +113,7 @@ p {
 }
 
 .button {
-  background-color:  #001133;
+  background-color:  #003399;
   border: none;
   color: white;
   padding-left:12px;
@@ -126,5 +126,9 @@ p {
   font-size: 12px;
   margin-left: 8px;
   cursor: pointer;
+}
+.button:hover {
+  background-color: #3399ff;
+  color: white;
 }
 
