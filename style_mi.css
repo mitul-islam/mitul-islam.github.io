@@ -4,18 +4,21 @@ body {
 	color: #001133;
   	background-color:#f2f2f2;	
 	width: 1200px;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Helvetica'; font-size:16px;
 }
 
 h1 {
 	text-align: center;
-	color: #002266;
-	font-size: 45px;
+	color: #001133;
+	font-size: 36px;
+	font-family:'Helvetica';
+	font-weight:normal;
+	
 }
 
 h2 {
 	text-align: left;
-	color: #001133;
+	color: #002266;
 	margin-left: 20px;
 }
 
@@ -31,6 +34,12 @@ h4 {
     font-family:Helvetica;
     text-align:left;
     font-size:24px;
+    font-weight:normal;
+}
+.internal_head{
+    font-family:Helvetica;
+    text-align:left;
+    font-size:20px;
     font-weight:normal;
 }
 
@@ -103,4 +112,19 @@ p {
   color: black;
 }
 
+.button {
+  background-color:  #001133;
+  border: none;
+  color: white;
+  padding-left:12px;
+  padding-right:12px;
+  padding-top:4px;
+  padding-bottom:4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 8px;
+  cursor: pointer;
+}
 
