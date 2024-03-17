@@ -104,10 +104,14 @@ p {
     margin-bottom:5%;
     border: 1px solid #111;
 }
+
+.topnav{
+
+}    
  
 
 .topnav a {
-   color: black;
+         color: black;
   width:80%;
     float: center;
   text-align: center;
@@ -124,7 +128,7 @@ p {
   color:  blue;
 }
 
-.topnav a.active {
+.topnav a:active {
   color:  blue;
 }
 
