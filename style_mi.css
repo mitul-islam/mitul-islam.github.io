@@ -5,19 +5,18 @@ body {
 	color: #001133;
   	background-color:#f2f2f2;	
 	width: 80%;
-	font-family: Arial; font-size:16px;
+	font-family: Arial; font-size:1vw;
 	
 }
 }
 
-h1 {
-	text-align: center;
-	color: #001133;
-	font-size: 36px;
-	font-family: Arial;
-	font-weight:normal;
-	
+h1{ font-size:3vw;
+    text-align: center;
+    color: #001133;
+    font-family: Arial;
+    font-weight:normal;
 }
+
 
 h2 {
 	text-align: left;
@@ -33,27 +32,27 @@ h3 {
 }
 
 h4 {
+    font-size:1.5vw;
     margin-left:20px;
     margin-bottom:10px;
     margin-top:25px;
     font-family:Helvetica;
     text-align:left;
-    font-size:24px;
     font-weight:normal;
     font-family:Arial;
 }
 .internal_head{
     font-family:Arial;
     text-align:left;
-    font-size:18px;
+    font-size:0.8vw;
     font-weight:normal;
 }
 
 ul {
 	text-align:left;
-	margin-left:40px;
-	margin-right:40px;
-	font-size: 16px;
+	margin-left:2%;
+	margin-right:0;
+	font-size: 1vw;
 	font-family: Arial;
 }
 
@@ -61,45 +60,45 @@ ol {
 	text-align:left;
 	margin-left:40px;
 	margin-right:40px;
+	font-size:1vw;
 }
 
 li {
-	margin: 10px 0;
+	margin: 10px 0;  font-size:1vw;
 }	
 
 table {
-    margin-left: 40px;
-    margin-top:5px;
-    margin-right:40px;
-    margin-bottom:5px;
+    margin-left: 3%;
+    margin-top:2%;
+    margin-right:5%;
+    margin-bottom:2%;
     vertical-aling:top;
-    border-spacing: 10px;
+    border-spacing: 3%;
     font-family:Arial;
-    font-size:16px;
+    font-size:1vw;
 }
 
 td {
     padding: 0px;
     text-align:left;
     vertical-align:top;
-    margin-right:20px;
-    margin-left:20px;
-    font-size:16px;
-    font-family:Arial;
+    margin-right:0;
+    margin-left:2%;
+    font-family:Arial; font-size:1vw;
 }
 
 p {
-	font-size: 16px; margin-left:4%; margin-right:0%; text-align:justify;
+    font-size: 1vw; margin-left:3%; margin-right:0%; text-align:justify;
 }
 
- br {
+br {
 	line-height: 50%;
 }
 
 .image {
     float: right;
-    width: 24%;
-    height: 22%;
+    width: 15%;
+    height: 14%;
     margin-left:5%;
     margin-right:1%;
     margin-top:5%;
@@ -114,6 +113,7 @@ p {
  
 
 .topnav a {
+     font-size:1.1vw;
   color: black;
   width:80%;
   float: center;
@@ -124,7 +124,6 @@ p {
   padding-bottom: 5%;
   margin:0px;
   text-decoration: none;
-  font-size: 18px;
 }
 
 .topnav a:hover {
@@ -146,7 +145,7 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 0.8vw;
   margin-left: 8px;
   cursor: pointer;
 }
