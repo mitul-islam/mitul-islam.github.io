@@ -76,6 +76,7 @@ table {
     border-spacing: 3%;
     font-family:Arial;
     font-size:1vw;
+    overflow: auto;
 }
 
 td {
@@ -85,6 +86,7 @@ td {
     margin-right:0;
     margin-left:2%;
     font-family:Arial; font-size:1vw;
+    overflow:auto;
 }
 
 p {
@@ -113,7 +115,7 @@ br {
  
 
 .topnav a {
-     font-size:1.1vw;
+     font-size:1vw;
   color: black;
   width:80%;
   float: center;
