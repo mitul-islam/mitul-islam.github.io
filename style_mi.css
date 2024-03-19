@@ -1,10 +1,10 @@
 @media screen {
 body {
 
-        margin-left:10%;margin-right:10%;
+        margin-left:15%;margin-right:15%;
 	color: #001133;
   	background-color:#f2f2f2;	
-	width: 80%;
+	width: 70%;
 	font-family: Arial; font-size:1vw;
 	
 }
@@ -72,7 +72,7 @@ table {
     margin-top:2%;
     margin-right:5%;
     margin-bottom:2%;
-    vertical-aling:top;
+    vertical-align:top;
     border-spacing: 3%;
     font-family:Arial;
     font-size:1vw;
@@ -115,7 +115,7 @@ br {
  
 
 .topnav a {
-     font-size:1vw;
+  font-size:1vw;
   color: black;
   width:80%;
   float: center;
