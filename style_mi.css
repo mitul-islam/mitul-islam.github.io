@@ -76,7 +76,6 @@ table {
     border-spacing: 3%;
     font-family:Arial;
     font-size:1vw;
-    overflow: auto;
 }
 
 td {
@@ -86,7 +85,6 @@ td {
     margin-right:0;
     margin-left:2%;
     font-family:Arial; font-size:1vw;
-    overflow:auto;
 }
 
 p {
