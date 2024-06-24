@@ -63,8 +63,12 @@ ol {
 	font-size:1vw;
 }
 
+ol li {
+    margin-bottom:0.5vw;font-size:1vw;
+}
+
 li {
-	margin: 10px 0;  font-size:1vw;
+    margin: 10px 0; font-size:1vw;
 }	
 
 table {
@@ -134,7 +138,10 @@ br {
   color:  blue;
 }
 
-.button {
+
+
+
+.journal_button {
   background-color:  #003399;
   border: none;
   color: white;
@@ -149,10 +156,33 @@ br {
   margin-left: 8px;
   cursor: pointer;
 }
-.button:hover {
+
+.arxiv_button {
+  background-color:  #5DC384;
+  border: none;
+  color: white;
+  padding-left:12px;
+  padding-right:12px;
+  padding-top:4px;
+  padding-bottom:4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8vw;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.journal_button:hover {
   background-color: #3399ff;
   color: white;
 }
+
+.arxiv_button:hover {
+  background-color: #16502C;
+  color: white;
+}
+
 
 hr.navbar {
     border: 1px solid black;
