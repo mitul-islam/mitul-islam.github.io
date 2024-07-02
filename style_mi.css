@@ -138,17 +138,32 @@ br {
   color:  blue;
 }
 
+.journal_link{
+    text-decoration:none;
+    color:#0000ff;
+}
+.journal_link:visited{
+    color: #0000ff;
+}
 
+.arxiv_link{
+    text-decoration: none;
+    color: #004d00;
+}
+.arxiv_link:visited{
+    text-decoration: none;
+    color: #004d00;
+}
 
 
 .journal_button {
   background-color:  #003399;
   border: none;
   color: white;
-  padding-left:6px;
-  padding-right:6px;
-  padding-top:4px;
-  padding-bottom:4px;
+  padding-left:4px;
+  padding-right:4px;
+  padding-top:3px;
+  padding-bottom:3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -161,10 +176,10 @@ br {
   background-color:  #5DC384;
   border: none;
   color: white;
-  padding-left:6px;
-  padding-right:6px;
-  padding-top:4px;
-  padding-bottom:4px;
+  padding-left:4px;
+  padding-right:4px;
+  padding-top:3px;
+  padding-bottom:3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
