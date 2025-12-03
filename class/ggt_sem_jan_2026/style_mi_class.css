@@ -105,6 +105,10 @@ p {
     font-size: 1vw; margin-left:3%; margin-right:0%; text-align:justify;
 }
 
+p.center{
+    font-size: 1vw; margin-left:3%; margin-right:0%; text-align:center;
+}
+
 br {
 	line-height: 50%;
 }
@@ -170,16 +174,19 @@ br {
   background-color:  #003399;
   border: none;
   color: white;
-  padding-left:4px;
-  padding-right:4px;
-  padding-top:3px;
-  padding-bottom:3px;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:15px;
+  padding-bottom:15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 0.9vw;
-  margin-left: 2px;
+  font-size: 1.3vw;
   cursor: pointer;
+  border-radius:4px;   /* for rounding the button  */
+  display: block; /* Makes the button a block-level element */
+  margin: 0 auto; /* Sets top/bottom margins to 0 and left/right margins automatically to center it */
+  width: fit-content; /* Optional: Prevents the button from taking the full width of the page */
 }
 
 .arxiv_button {
@@ -212,3 +219,5 @@ br {
 hr.navbar {
     border: 1px solid black;
 }
+
+
